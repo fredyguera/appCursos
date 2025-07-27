@@ -1,0 +1,100 @@
+/* Contenedor principal */
+section {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 16px;
+  background: #f8fafd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+/* Título principal */
+h2 {
+  text-align: center;
+  color: #0049e6;
+  margin-bottom: 24px;
+  letter-spacing: 2px;
+}
+
+/* Tarjeta de curso */
+.curso-card {
+  background: #457b9d;
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.15s;
+  position: relative;
+}
+.curso-card:hover {
+  transform: translateY(-4px) scale(1.01);
+}
+
+/* Nombre del curso */
+.curso-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+/* Nivel y precio */
+.curso-card small,
+.curso-card span {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+/* Botones */
+.curso-card button {
+  background: #fff;
+  color: #0049e6;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 16px;
+  margin-right: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.curso-card button:hover {
+  background: #e6f0ff;
+  color: #002266;
+}
+
+/* Panel de contenidos */
+.curso-contenidos {
+  background: #f4f8ff;
+  color: #222;
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1.5px solid #0049e6;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.curso-contenidos h4 {
+  margin-top: 0;
+  color: #0049e6;
+}
+.curso-contenidos ul {
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+.curso-contenidos li {
+  margin-bottom: 4px;
+}
+.curso-contenidos button {
+  background: #2a9d8f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.curso-contenidos button:hover {
+  background: #002266;
+}

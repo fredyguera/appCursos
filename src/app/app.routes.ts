@@ -16,7 +16,7 @@ export const routes: Routes = [
         path: 'cursos', component: Cursos
     },
     {
-        path: 'detalleCursos/:id', component: DetalleCurso
+        path: 'cursos/:id', component: DetalleCurso
     },
     {
         path: '**', component: NotFound
